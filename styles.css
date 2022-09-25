@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+}
+
+.header,
+.footer {
+    color: white;
+    font-family: Roboto, sans-serif;
+    background-color: #1F2937;
+    padding: 16px 120px 16px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.herocontainer {
+    color: white;
+    font-family: Roboto, sans-serif;
+    flex: 1;
+    padding: 80px 120px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    font-size: 48px;
+    color: #f9faf8;
+    flex: 1;
+    font-weight: 800;
+}
+
+.main,
+.secondary {
+    width: 400px;
+}
+
+.secondary,
+.link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero.img {
+    height: 150 px;
+    width: 450 px;
+    background-color: grey;
+    align-self: space-between;
+    padding: 100px;
+    
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.slot {
+    height: 150px;
+    width: 150px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    gap: 20px;
+    
+}
+.subtext {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+.slotcontainer,
+.subtextcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 80px 120px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    background-color: #e5e7eb;
+    display: flex;
+    font-size: 24px;
+    font-weight: 900;
+    flex: 4;
+    padding: 0px 120px 80px;
+    justify-content: space-between;
+
+}
+.actioncontainer {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action.title {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    padding: 40px 60px 0px; 
+}
+
+.action.text {
+    padding: 0px 60px 40px;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 1px;
+    padding: 4px 16px;
+}
+
+.signup {
+    align-self: center;
+    justify-self: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 60px;
+}
+
+.footer {
+    justify-content: center;
+}
